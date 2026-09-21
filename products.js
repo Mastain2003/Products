@@ -34,11 +34,11 @@ const PRODUCTS = [
     sku: "SKU-002",
     category: "Sweets",
     images: [
-      "img/peda 250/1789992001302.png(1)",
-      "img/peda 250/1789992001302.png(2)",
-      "img/peda 250/1789992001302.png(3)",
-      "img/peda 250/1789992001302.png(4)",
-      "img/peda 250/1789992001302.png(5)",
+      "img/peda 250/1789992001302(1).png",
+      "img/peda 250/1789992001302(2).png",
+      "img/peda 250/1789992001302(3).png",
+      "img/peda 250/1789992001302(4).png",
+      "img/peda 250/1789992001302(5).png",
       "img/peda 250/1789992001302.png"
     ],    
     specs: {
