@@ -19,8 +19,12 @@ const PRODUCTS = [
         availability: 'In Stock',
         condition: 'New',
         images: [
-          'images/tshirt-mulberry-s-front.jpg',
-          'images/tshirt-mulberry-s-back.jpg'
+          'img/peda 250/1789992001302(1).png',
+          'img/peda 250/1789992001302(2).png',
+          'img/peda 250/1789992001302(3).png',
+          'img/peda 250/1789992001302(4).png',
+          'img/peda 250/1789992001302(5).png',
+          'img/peda 250/1789992001302.png',
         ],
         specs: {
           Validity: '1 Month'
@@ -38,9 +42,8 @@ const PRODUCTS = [
         currency: 'INR',
         availability: 'In Stock',
         condition: 'New',
-        images: [
-          'images/tshirt-mulberry-s-front.jpg',
-          'images/tshirt-mulberry-s-back.jpg'
+        images: [          
+          'img/peda 500/1789992281742.png'
         ],
         specs: {
           Validity: '1 Month'
