@@ -1,1 +1,77 @@
-const PRODUCTS=[{productId:'tshirt-001',productTitle:'Premium T-Shirt',brand:'Your Brand',description:'Premium cotton T-shirt available in related variants.',category:'T-Shirts',variants:[{id:'tshirt-001-mulberry-s',title:'Premium T-Shirt - Mulberry / Small',sku:'TS-MUL-S',attributes:{Color:'Mulberry',Size:'Small'},price:1999,salePrice:1499,currency:'INR',availability:'In Stock',condition:'New',images:['images/tshirt-mulberry-s-front.jpg','images/tshirt-mulberry-s-back.jpg'],specs:{Material:'100% Cotton',Warranty:'1 year'}},{id:'tshirt-001-mulberry-m',title:'Premium T-Shirt - Mulberry / Medium',sku:'TS-MUL-M',attributes:{Color:'Mulberry',Size:'Medium'},price:1999,salePrice:1499,currency:'INR',availability:'In Stock',condition:'New',images:['images/tshirt-mulberry-m-front.jpg','images/tshirt-mulberry-m-back.jpg'],specs:{Material:'100% Cotton',Warranty:'1 year'}},{id:'tshirt-001-black-s',title:'Premium T-Shirt - Black / Small',sku:'TS-BLK-S',attributes:{Color:'Black',Size:'Small'},price:1899,salePrice:null,currency:'INR',availability:'In Stock',condition:'New',images:['images/tshirt-black-s-front.jpg','images/tshirt-black-s-back.jpg'],specs:{Material:'100% Cotton',Warranty:'1 year'}}]}];
+const PRODUCTS = [
+  {
+    productId: 'tshirt-001',
+    productTitle: 'Premium T-Shirt',
+    brand: 'Your Brand',
+    description: 'Premium cotton T-shirt available in related variants.',
+    category: 'T-Shirts',
+    variants: [
+      {
+        id: 'tshirt-001-mulberry-s',
+        title: 'Premium T-Shirt - Mulberry / Small',
+        sku: 'TS-MUL-S',
+        attributes: {
+          Color: 'Mulberry',
+          Size: 'Small'
+        },
+        price: 1999,
+        salePrice: 1499,
+        currency: 'INR',
+        availability: 'In Stock',
+        condition: 'New',
+        images: [
+          'images/tshirt-mulberry-s-front.jpg',
+          'images/tshirt-mulberry-s-back.jpg'
+        ],
+        specs: {
+          Material: '100% Cotton',
+          Warranty: '1 year'
+        }
+      },
+      {
+        id: 'tshirt-001-mulberry-m',
+        title: 'Premium T-Shirt - Mulberry / Medium',
+        sku: 'TS-MUL-M',
+        attributes: {
+          Color: 'Mulberry',
+          Size: 'Medium'
+        },
+        price: 1999,
+        salePrice: 1499,
+        currency: 'INR',
+        availability: 'In Stock',
+        condition: 'New',
+        images: [
+          'images/tshirt-mulberry-m-front.jpg',
+          'images/tshirt-mulberry-m-back.jpg'
+        ],
+        specs: {
+          Material: '100% Cotton',
+          Warranty: '1 year'
+        }
+      },
+      {
+        id: 'tshirt-001-black-s',
+        title: 'Premium T-Shirt - Black / Small',
+        sku: 'TS-BLK-S',
+        attributes: {
+          Color: 'Black',
+          Size: 'Small'
+        },
+        price: 1899,
+        salePrice: null,
+        currency: 'INR',
+        availability: 'In Stock',
+        condition: 'New',
+        images: [
+          'images/tshirt-black-s-front.jpg',
+          'images/tshirt-black-s-back.jpg'
+        ],
+        specs: {
+          Material: '100% Cotton',
+          Warranty: '1 year'
+        }
+      }
+    ]
+  }
+];
