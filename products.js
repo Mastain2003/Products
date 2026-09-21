@@ -4,7 +4,7 @@ const PRODUCTS = [
     productTitle: 'Sanchi Peda',
     brand: 'Sanchi',
     description: 'Pead made up of pure mawa.',
-    category: 'T-Shirts',
+    category: 'Sweets',
     variants: [
       {
         id: 'Peda-001-250gm',
@@ -70,6 +70,35 @@ const PRODUCTS = [
         }
       }
     ]
+  },
+  {
+    productId: 'milk-cake-001',
+    productTitle: 'Sanchi Milk Cake',
+    brand: 'Sanchi',
+    description: 'Milk cake up of pure mawa.',
+    category: 'Sweets',
+    variants: [
+      {
+        id: 'Milk Cake-001-250gm',
+        title: 'Sanchi Milk cake 250gm',
+        sku: 'S-milk-cake-250',
+        attributes: {
+          Quantity: '250 Gm'
+        },
+        price: 125,
+        salePrice: 115,
+        currency: 'INR',
+        availability: 'In Stock',
+        condition: 'New',
+        images: [          
+          'img/peda 250/1789992001302.png',
+        ],
+        specs: {
+          Validity: '1 Month'
+        }
+      }
+    ]
+    
   }
 ]
 
