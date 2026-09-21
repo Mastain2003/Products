@@ -3,7 +3,7 @@
 const PRODUCTS = [
   {
     id: "product-001",
-    title: "Example Product",
+    title: "Sanchi Peda",
     brand: "Your Brand",
     description: "A sample product description. Replace this with the complete description of your product.",
     price: 1999,
