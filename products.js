@@ -1,21 +1,20 @@
 const PRODUCTS = [
   {
-    productId: 'tshirt-001',
-    productTitle: 'Premium T-Shirt',
-    brand: 'Your Brand',
-    description: 'Premium cotton T-shirt available in related variants.',
+    productId: 'Peda-001',
+    productTitle: 'Sanchi Peda',
+    brand: 'Sanchi',
+    description: 'Pead made up of pure mawa.',
     category: 'T-Shirts',
     variants: [
       {
-        id: 'tshirt-001-mulberry-s',
-        title: 'Premium T-Shirt - Mulberry / Small',
-        sku: 'TS-MUL-S',
+        id: 'Peda-001-250gm',
+        title: 'Sanchi Pead 250gm',
+        sku: 'S-Pead-250',
         attributes: {
-          Color: 'Mulberry',
-          Size: 'Small'
+          Quantity: '250 Gm'
         },
-        price: 1999,
-        salePrice: 1499,
+        price: 120,
+        salePrice: 110,
         currency: 'INR',
         availability: 'In Stock',
         condition: 'New',
@@ -24,54 +23,53 @@ const PRODUCTS = [
           'images/tshirt-mulberry-s-back.jpg'
         ],
         specs: {
-          Material: '100% Cotton',
-          Warranty: '1 year'
+          Validity: '1 Month'
         }
       },
       {
-        id: 'tshirt-001-mulberry-m',
-        title: 'Premium T-Shirt - Mulberry / Medium',
-        sku: 'TS-MUL-M',
+        id: 'Peda-001-500gm',
+        title: 'Sanchi Pead 500gm',
+        sku: 'S-Pead-500',
         attributes: {
-          Color: 'Mulberry',
-          Size: 'Medium'
+          Quantity: '500 Gm'
         },
-        price: 1999,
-        salePrice: 1499,
+        price: 230,
+        salePrice: 210,
         currency: 'INR',
         availability: 'In Stock',
         condition: 'New',
         images: [
-          'images/tshirt-mulberry-m-front.jpg',
-          'images/tshirt-mulberry-m-back.jpg'
+          'images/tshirt-mulberry-s-front.jpg',
+          'images/tshirt-mulberry-s-back.jpg'
         ],
         specs: {
-          Material: '100% Cotton',
-          Warranty: '1 year'
+          Validity: '1 Month'
         }
       },
       {
-        id: 'tshirt-001-black-s',
-        title: 'Premium T-Shirt - Black / Small',
-        sku: 'TS-BLK-S',
+        id: 'Peda-001-1Kg',
+        title: 'Sanchi Pead 1KG',
+        sku: 'S-Pead-1000',
         attributes: {
-          Color: 'Black',
-          Size: 'Small'
+          Quantity: '1 KG'
         },
-        price: 1899,
-        salePrice: null,
+        price: 420,
+        salePrice: 388,
         currency: 'INR',
         availability: 'In Stock',
         condition: 'New',
         images: [
-          'images/tshirt-black-s-front.jpg',
-          'images/tshirt-black-s-back.jpg'
+          'images/tshirt-mulberry-s-front.jpg',
+          'images/tshirt-mulberry-s-back.jpg'
         ],
         specs: {
-          Material: '100% Cotton',
-          Warranty: '1 year'
+          Validity: '1 Month'
         }
       }
     ]
   }
-];
+]
+
+
+
+
