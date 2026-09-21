@@ -3,16 +3,16 @@
 const PRODUCTS = [
   {
     id: "product-001",
-    title: "Sanchi Peda",
-    brand: "Your Brand",
-    description: "A sample product description. Replace this with the complete description of your product.",
-    price: 1999,
-    salePrice: 1499,
+    title: "Sanchi Peda 250gm",
+    brand: "Sanchi",
+    description: "Sanchi peda 250gm made up of pure mawa..",
+    price: 120,
+    salePrice: 110,
     currency: "INR",
     availability: "In Stock",
     condition: "New",
     sku: "SKU-001",
-    category: "Featured",
+    category: "Sweets",
     images: [
       "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=1200&q=80"
@@ -22,29 +22,33 @@ const PRODUCTS = [
       { name: "Size", options: ["Small", "Medium", "Large"] }
     ],
     specs: {
-      "Material": "Premium finish",
-      "Warranty": "1 year",
+      "Validity": "1 Month",
       "Country of origin": "India"
     }
   },
   {
     id: "product-002",
-    title: "Another Product",
-    brand: "Your Brand",
-    description: "Another example item for the catalog.",
-    price: 2499,
-    salePrice: null,
+    title: "Sanchi Peda 500gm",
+    brand: "Sanchi",
+    description: "Sanchi peda 500gm made up of pure mawa..",
+    price: 230,
+    salePrice: 210,
     currency: "INR",
-    availability: "Preorder",
+    availability: "In Stock",
     condition: "New",
     sku: "SKU-002",
-    category: "New",
+    category: "Sweets",
     images: [
-      "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=1200&q=80"
     ],
-    variants: [],
+    variants: [
+      { name: "Color", options: ["Mulberry", "Black", "White"] },
+      { name: "Size", options: ["Small", "Medium", "Large"] }
+    ],
     specs: {
-      "Warranty": "2 years"
+      "Validity": "1 Month",
+      "Country of origin": "India"
     }
-  }
-];
+  },
+]
