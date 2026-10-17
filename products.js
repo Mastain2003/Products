@@ -1,5 +1,71 @@
 const PRODUCTS = [
   {
+    productId: 'Gold-01',
+    productTitle: 'Sanchi Gold',
+    brand: 'Sanchi',
+    description: 'pasteurized full cream milk',
+    category: 'Milk',
+    variants: [
+      {
+        id: 'Gold-01-500ml',
+        title: 'Sanchi Gold 500ml',
+        sku: 'S-gold-500',
+        attributes: {
+          Quantity: '500 ML'
+        },
+        price: 70,
+        salePrice: 67,
+        currency: 'INR',
+        availability: 'In Stock',
+        condition: 'New',
+        images: [
+          'img/milk/gold_500.jpg',
+        ],
+        specs: {
+          Validity: '2 Days'
+        }
+      },
+      {
+        id: 'Peda-001-500gm',
+        title: 'Sanchi Pead 500gm',
+        sku: 'S-Pead-500',
+        attributes: {
+          Quantity: '500 Gm'
+        },
+        price: 230,
+        salePrice: 210,
+        currency: 'INR',
+        availability: 'In Stock',
+        condition: 'New',
+        images: [          
+          'img/peda 500/1789992281742.png'
+        ],
+        specs: {
+          Validity: '1 Month'
+        }
+      },
+      {
+        id: 'Peda-001-1Kg',
+        title: 'Sanchi Pead 1KG',
+        sku: 'S-Pead-1000',
+        attributes: {
+          Quantity: '1 KG'
+        },
+        price: 420,
+        salePrice: 388,
+        currency: 'INR',
+        availability: 'In Stock',
+        condition: 'New',
+        images: [
+          'images/tshirt-mulberry-s-front.jpg',
+          'images/tshirt-mulberry-s-back.jpg'
+        ],
+        specs: {
+          Validity: '1 Month'
+        }
+      }
+    ]
+  },
     productId: 'Peda-001',
     productTitle: 'Sanchi Peda',
     brand: 'Sanchi',
