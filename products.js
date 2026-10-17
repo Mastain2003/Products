@@ -13,59 +13,265 @@ const PRODUCTS = [
         attributes: {
           Quantity: '500 ML'
         },
-        price: 70,
-        salePrice: 67,
+        price: 35,
+        salePrice: 33.5,
         currency: 'INR',
         availability: 'In Stock',
         condition: 'New',
         images: [
-          'img/milk/gold_500.jpg',
+          'img/milk/GOLD_500.jpg',
         ],
         specs: {
           Validity: '2 Days'
         }
       },
       {
-        id: 'Peda-001-500gm',
-        title: 'Sanchi Pead 500gm',
-        sku: 'S-Pead-500',
+        id: 'Gold-01-1000ml',
+        title: 'Sanchi Gold 1000ml',
+        sku: 'S-gold-1000',
         attributes: {
-          Quantity: '500 Gm'
+          Quantity: '1000 ML'
         },
-        price: 230,
-        salePrice: 210,
-        currency: 'INR',
-        availability: 'In Stock',
-        condition: 'New',
-        images: [          
-          'img/peda 500/1789992281742.png'
-        ],
-        specs: {
-          Validity: '1 Month'
-        }
-      },
-      {
-        id: 'Peda-001-1Kg',
-        title: 'Sanchi Pead 1KG',
-        sku: 'S-Pead-1000',
-        attributes: {
-          Quantity: '1 KG'
-        },
-        price: 420,
-        salePrice: 388,
+        price: 70,
+        salePrice: 67,
         currency: 'INR',
         availability: 'In Stock',
         condition: 'New',
         images: [
-          'images/tshirt-mulberry-s-front.jpg',
-          'images/tshirt-mulberry-s-back.jpg'
+          'img/milk/GOLD_1000.jpg',
         ],
         specs: {
-          Validity: '1 Month'
+          Validity: '2 Days'
+        }
+      },
+      {
+        id: 'Gold-01-6000ml',
+        title: 'Sanchi Gold 6000ml',
+        sku: 'S-gold-6000',
+        attributes: {
+          Quantity: '6000 ML'
+        },
+        price: 420,
+        salePrice: 386.20,
+        currency: 'INR',
+        availability: 'In Stock',
+        condition: 'New',
+        images: [
+          'img/milk/GOLD_6000.jpg',
+        ],
+        specs: {
+          Validity: '2 Days'
         }
       }
     ]
   },
+  {
+    productId: 'STD-01',
+    productTitle: 'Sanchi Standard',
+    brand: 'Sanchi',
+    description: 'pasteurized Standard milk',
+    category: 'Milk',
+    variants: [
+      {
+        id: 'STD-01-500ml',
+        title: 'Sanchi Standard 500ml',
+        sku: 'S-std-500',
+        attributes: {
+          Quantity: '500 ML'
+        },
+        price: 32,
+        salePrice: 30.5,
+        currency: 'INR',
+        availability: 'In Stock',
+        condition: 'New',
+        images: [
+          'img/milk/STD_500.jpg',
+        ],
+        specs: {
+          Validity: '2 Days'
+        }
+      },
+      {
+        id: 'STD-01-6000ml',
+        title: 'Sanchi Standard 6000ml',
+        sku: 'S-std-6000',
+        attributes: {
+          Quantity: '6000 ML'
+        },
+        price: 378,
+        salePrice: 360,
+        currency: 'INR',
+        availability: 'In Stock',
+        condition: 'New',
+        images: [
+          'img/milk/STD_6000.jpg',
+        ],
+        specs: {
+          Validity: '2 Days'
+        }
+      }
+    ]
+  },
+  {
+    productId: 'DTM-01',
+    productTitle: 'Sanchi Double Toned Milk',
+    brand: 'Sanchi',
+    description: 'pasteurized Double Toned milk',
+    category: 'Milk',
+    variants: [
+      {
+        id: 'DTM-01-500ml',
+        title: 'Sanchi Double Toned 500ml',
+        sku: 'S-DTM-500',
+        attributes: {
+          Quantity: '500 ML'
+        },
+        price: 27,
+        salePrice: 25.5,
+        currency: 'INR',
+        availability: 'In Stock',
+        condition: 'New',
+        images: [
+          'img/milk/DTM_500.jpg',
+        ],
+        specs: {
+          Validity: '2 Days'
+        }
+      },
+      {
+        id: 'DTM-01-200ml',
+        title: 'Sanchi Double Toned 200ml',
+        sku: 'S-DTM-200',
+        attributes: {
+          Quantity: '200 ML'
+        },
+        price: 10,
+        salePrice: 9,
+        currency: 'INR',
+        availability: 'In Stock',
+        condition: 'New',
+        images: [
+          'img/milk/DTM_200.jpg',
+        ],
+        specs: {
+          Validity: '2 Days'
+        }
+      }
+    ]
+  },
+  {
+    productId: 'TM-01',
+    productTitle: 'Sanchi Toned Milk',
+    brand: 'Sanchi',
+    description: 'pasteurized homogenized Toned milk',
+    category: 'Milk',
+    variants: [
+      {
+        id: 'TM-01-500ml',
+        title: 'Sanchi homogenized Toned 500ml',
+        sku: 'S-TM-500',
+        attributes: {
+          Quantity: '500 ML'
+        },
+        price: 29,
+        salePrice: 27.5,
+        currency: 'INR',
+        availability: 'In Stock',
+        condition: 'New',
+        images: [
+          'img/milk/TM_500.jpg',
+        ],
+        specs: {
+          Validity: '2 Days'
+        }
+      }     
+    ]
+  },
+  {
+    productId: 'TSP-01',
+    productTitle: 'Sanchi Toned Milk',
+    brand: 'Sanchi',
+    description: 'Pasteurized homogenized Toned milk',
+    category: 'Milk',
+    variants: [
+      {
+        id: 'TSP-01-1000ml',
+        title: 'Sanchi homogenized Toned 500ml',
+        sku: 'S-TSP-1000',
+        attributes: {
+          Quantity: '100 ML'
+        },
+        price: 56,
+        salePrice: 53,
+        currency: 'INR',
+        availability: 'In Stock',
+        condition: 'New',
+        images: [
+          'img/milk/TSP_1000.jpg',
+        ],
+        specs: {
+          Validity: '2 Days'
+        }
+      }     
+    ]
+  },
+  {
+    productId: 'Chah-01',
+    productTitle: 'Sanchi Chah Milk',
+    brand: 'Sanchi',
+    description: 'Pasteurized homogenized Standard milk',
+    category: 'Milk',
+    variants: [
+      {
+        id: 'Chah-01-1000ml',
+        title: 'Sanchi homogenized Standard 500ml',
+        sku: 'S-Chah-1000',
+        attributes: {
+          Quantity: '1000 ML'
+        },
+        price: 62,
+        salePrice: 59,
+        currency: 'INR',
+        availability: 'In Stock',
+        condition: 'New',
+        images: [
+          'img/milk/CHAH_1000.jpg',
+        ],
+        specs: {
+          Validity: '2 Days'
+        }
+      }     
+    ]
+  },
+  {
+    productId: 'Skim-01',
+    productTitle: 'Sanchi Skimmed Milk',
+    brand: 'Sanchi',
+    description: 'pasteurized Skimmed milk',
+    category: 'Milk',
+    variants: [
+      {
+        id: 'Skin-01-200ml',
+        title: 'Sanchipasteurized Skimmed 200ml',
+        sku: 'S-skim-200',
+        attributes: {
+          Quantity: '200 ML'
+        },
+        price: 10,
+        salePrice: 7,
+        currency: 'INR',
+        availability: 'In Stock',
+        condition: 'New',
+        images: [
+          'img/milk/SKIM_200.jpg',
+        ],
+        specs: {
+          Validity: '2 Days'
+        }
+      }     
+    ]
+  },
+ /* {
     productId: 'Peda-001',
     productTitle: 'Sanchi Peda',
     brand: 'Sanchi',
@@ -165,7 +371,7 @@ const PRODUCTS = [
       }
     ]
     
-  }
+  }*/
 ]
 
 
